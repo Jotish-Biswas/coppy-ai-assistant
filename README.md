@@ -70,3 +70,62 @@ copy-ai-assistant/
     package.json
     index.js
     .env
+
+
+````
+# How to use this ?
+
+Step-by-Step Setup Guide
+# 1. Clone the repository
+git clone https://github.com/YOUR_USERNAME/copy-ai-assistant.git
+cd copy-ai-assistant
+# 2. Install backend dependencies
+
+Go to the server folder:
+
+cd server
+npm install
+# 3. Create a .env file
+
+Inside the server folder, create a file named .env
+
+Example:
+
+GEMINI_API_KEY=your_real_gemini_api_key_here
+# 4. Start the backend server
+
+Inside the server folder, run:
+
+npm start
+
+If everything is correct, you should see:
+
+Server running on http://127.0.0.1:3000
+# 5. Load the extension in Brave or Chrome
+
+Open:
+
+brave://extensions in Brave
+
+or chrome://extensions in Chrome
+
+Then:
+
+Turn on Developer mode
+
+Click Load unpacked
+
+Select the project folder
+
+# 6. Use the extension
+
+Open a webpage
+
+Select some text → an Explain button will appear
+
+Or copy text → the AI panel will open automatically
+
+Ask follow-up questions in the panel
+
+.. যদি কাজ না করে তবে ব্রাউজার এর ওই ওয়েবসাইট এর জন্য শিল্ড অফ করে দেও <img width="42" height="40" alt="image" src="https://github.com/user-attachments/assets/bcae6530-9efa-4ad1-accf-4e846da4ce53" />। এড্রেস বার এর পাশে ই ব্রেভ শিল্ড থাকে 
+
