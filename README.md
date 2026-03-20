@@ -77,7 +77,7 @@ copy-ai-assistant/
 
 Step-by-Step Setup Guide
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/copy-ai-assistant.git
+git clone https://github.com/Jotish-Biswas/coppy-ai-assistant
 cd copy-ai-assistant
 # 2. Install backend dependencies
 
