@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Copy AI Assistant",
+  "version": "0.1.0",
+  "description": "Explain selected text on any webpage",
+  "permissions": [],
+  "host_permissions": [
+    "<all_urls>",
+    "http://127.0.0.1:3000/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
