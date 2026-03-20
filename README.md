@@ -1,0 +1,1 @@
+# coppy-ai-assistant
